@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Red Hat Display',sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   background-image: url("../images/pattern-background-mobile.svg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -25,11 +25,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .container .card {
@@ -39,7 +39,7 @@ body {
   background-color: white;
   border-radius: 2rem;
   -webkit-box-shadow: 10px 10px 20px rgba(56, 41, 224, 0.1), 15px 15px 30px rgba(56, 41, 224, 0.1);
-          box-shadow: 10px 10px 20px rgba(56, 41, 224, 0.1), 15px 15px 30px rgba(56, 41, 224, 0.1);
+  box-shadow: 10px 10px 20px rgba(56, 41, 224, 0.1), 15px 15px 30px rgba(56, 41, 224, 0.1);
 }
 
 .container .card .hero {
@@ -54,14 +54,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 3rem;
 }
 
@@ -93,14 +93,14 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   gap: 2rem;
 }
 
@@ -135,11 +135,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .container .card .card-wrapper .primary {
@@ -149,7 +149,7 @@ body {
   border-radius: 1rem;
   cursor: pointer;
   -webkit-box-shadow: 10px 10px 20px rgba(56, 41, 224, 0.15), 15px 15px 30px rgba(56, 41, 224, 0.15);
-          box-shadow: 10px 10px 20px rgba(56, 41, 224, 0.15), 15px 15px 30px rgba(56, 41, 224, 0.15);
+  box-shadow: 10px 10px 20px rgba(56, 41, 224, 0.15), 15px 15px 30px rgba(56, 41, 224, 0.15);
 }
 
 .container .card .card-wrapper .primary:hover {
@@ -182,42 +182,54 @@ body {
   body {
     background-image: url("../images/pattern-background-desktop.svg");
   }
+
   .container {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   .container .card {
     margin-top: unset;
   }
+
   .container .card .card-wrapper {
     padding: 4rem 4.5rem;
   }
+
   .container .card .card-wrapper .title {
     font-size: 2.8rem;
   }
+
   .container .card .card-wrapper .description {
     font-size: 1.6rem;
     line-height: 2.55rem;
   }
+
   .container .card .card-wrapper .plan-card {
     padding: 2.2rem 2.4rem;
     margin: 0.4rem;
   }
+
   .container .card .card-wrapper .plan-card .list {
     gap: 2.2rem;
   }
+
   .container .card .card-wrapper .plan-card .list .payment-plan {
     font-size: 1.6rem;
   }
+
   .container .card .card-wrapper .plan-card .list .price {
     font-size: 1.6rem;
   }
+
   .container .card .card-wrapper .plan-card .list a {
     font-size: 1.5rem;
   }
+
   .container .card .card-wrapper .primary {
     margin: 3rem 0 2.4rem 0;
   }
 }
+
 /*# sourceMappingURL=styles.css.map */
