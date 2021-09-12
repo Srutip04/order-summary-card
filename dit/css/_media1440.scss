@@ -1,0 +1,52 @@
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+    }
+
+    .container {
+        align-items: center;
+
+        .card {
+            margin-top: unset;
+
+            .card-wrapper {
+                padding: 4rem 4.5rem;
+
+                .title {
+                    font-size: 2.8rem;
+                }
+
+                .description {
+                    font-size: 1.6rem;
+                    line-height: 2.55rem;
+                }
+
+                .plan-card {
+                    padding: 2.2rem 2.4rem;
+                    margin: 0.4rem;
+
+                    .list {
+                        gap: 2.2rem;
+
+                        .payment-plan {
+                            font-size: 1.6rem;
+                        }
+
+                        .price {
+                            font-size: 1.6rem;
+                        }
+
+                        a {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+
+                .primary {
+                    margin: 3rem 0 2.4rem 0;
+                }
+            }
+
+        }
+    }
+}
